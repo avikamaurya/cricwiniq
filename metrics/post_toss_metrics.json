@@ -1,0 +1,47 @@
+{
+    "model_name": "Post-Toss Win Probability Model",
+    "accuracy": 0.536,
+    "precision": 0.5968,
+    "recall": 0.3217,
+    "f1_score": 0.4181,
+    "roc_auc": 0.5523,
+    "log_loss": 0.6979,
+    "brier_score": 0.2522,
+    "confusion_matrix": [
+        [
+            82,
+            25
+        ],
+        [
+            78,
+            37
+        ]
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 0.5125,
+            "recall": 0.7663551401869159,
+            "f1-score": 0.6142322097378277,
+            "support": 107.0
+        },
+        "1": {
+            "precision": 0.5967741935483871,
+            "recall": 0.3217391304347826,
+            "f1-score": 0.4180790960451977,
+            "support": 115.0
+        },
+        "accuracy": 0.536036036036036,
+        "macro avg": {
+            "precision": 0.5546370967741936,
+            "recall": 0.5440471353108493,
+            "f1-score": 0.5161556528915127,
+            "support": 222.0
+        },
+        "weighted avg": {
+            "precision": 0.5561555507120023,
+            "recall": 0.536036036036036,
+            "f1-score": 0.5126213625547085,
+            "support": 222.0
+        }
+    }
+}

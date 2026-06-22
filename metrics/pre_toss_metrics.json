@@ -1,0 +1,47 @@
+{
+    "model_name": "Pre-Toss Win Probability Model",
+    "accuracy": 0.5225,
+    "precision": 0.557,
+    "recall": 0.3826,
+    "f1_score": 0.4536,
+    "roc_auc": 0.5757,
+    "log_loss": 0.6904,
+    "brier_score": 0.2485,
+    "confusion_matrix": [
+        [
+            72,
+            35
+        ],
+        [
+            71,
+            44
+        ]
+    ],
+    "classification_report": {
+        "0": {
+            "precision": 0.5034965034965035,
+            "recall": 0.6728971962616822,
+            "f1-score": 0.576,
+            "support": 107.0
+        },
+        "1": {
+            "precision": 0.5569620253164557,
+            "recall": 0.3826086956521739,
+            "f1-score": 0.4536082474226804,
+            "support": 115.0
+        },
+        "accuracy": 0.5225225225225225,
+        "macro avg": {
+            "precision": 0.5302292644064797,
+            "recall": 0.5277529459569281,
+            "f1-score": 0.5148041237113402,
+            "support": 222.0
+        },
+        "weighted avg": {
+            "precision": 0.5311926071419742,
+            "recall": 0.5225225225225225,
+            "f1-score": 0.5125988669081453,
+            "support": 222.0
+        }
+    }
+}
