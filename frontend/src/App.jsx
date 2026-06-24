@@ -374,7 +374,7 @@ function ResultDashboard({ result }) {
         <RecentFormCard data={analysis.recent_form} teams={teams} />
         <StreakCard data={analysis.winning_streak} teams={teams} />
         <PastPerformanceCard data={analysis.past_3_year_performance} teams={teams} />
-        <TeamStrengthCard data={analysis.team_strength} teams={teams} />
+        
         <WeaknessCard data={analysis.team_weakness} teams={teams} />
         <IndividualContributionCard data={analysis.individual_contribution} teams={teams} />
 
