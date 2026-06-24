@@ -511,29 +511,7 @@ function PastPerformanceCard({ data, teams }) {
   );
 }
 
-function TeamStrengthCard({ data, teams }) {
-  if (!data) return null;
 
-  return (
-    <div className="card stat-card wide-card">
-      <h3>Team Strength</h3>
-
-      <div className="strength-grid">
-        {teams.map((team) => {
-          const strength = data[team] || {};
-          return (
-            <div className="strength-box" key={team}>
-              <h4>{team}</h4>
-              <StrengthBar label="Batting" value={strength.batting_strength} />
-              <StrengthBar label="Bowling" value={strength.bowling_strength} />
-              <StrengthBar label="Overall" value={strength.overall_strength} />
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
 
 function WeaknessCard({ data, teams }) {
   if (!data) return null;
